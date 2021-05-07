@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GiveMeSmile</string>
+    <string name="actionbar_title">Give me a smile</string>
+    <string name="fragment_counter_increment">Increment</string>
+    <string name="fragment_counter_decrement">Decrement</string>
+    <string name="fragment_countersmile_per_day">Choose count of smile per day. We\'ll help you with this stuff.</string>
+    <string name="fragment_counter_approve_btn">Let\'s smile!</string>
+    <string name="notification_title">Hey ho!</string>
+    <string name="notification_text">It\'s time for smiling and little meditation</string>
+    <string name="toast_awesome">Your are awesome</string>
+</resources>

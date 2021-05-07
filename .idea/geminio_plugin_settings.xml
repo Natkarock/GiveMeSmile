@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ru.hh.plugins.geminio.config.editor.GeminioPluginConfig">
+    <option name="config">
+      <GeminioPluginConfig>
+        <option name="configFilePath" value="$PROJECT_DIR$/geminio_config.yaml" />
+        <option name="groupsNames">
+          <GroupsNames>
+            <option name="forNewGroup" value="Finiza Templates" />
+            <option name="forNewModulesGroup" value="Finiza Modules" />
+          </GroupsNames>
+        </option>
+        <option name="modulesTemplatesRootDirPath" value="/geminio/modules_templates" />
+        <option name="templatesRootDirPath" value="/geminio/templates" />
+      </GeminioPluginConfig>
+    </option>
+  </component>
+</project>
