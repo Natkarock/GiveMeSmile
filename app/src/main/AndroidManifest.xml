@@ -19,12 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <receiver android:name=".frameworks.smileAlarm.SmileReceiver" android:exported="true" android:enabled="true">
+        <receiver android:name="com.natkarock.myapplication.frameworks.smileAlarm.SmileReceiver" android:exported="true" android:enabled="true">
             <intent-filter>
                 <action android:name="android.intent.action.NOTIFY" />
+                <action android:name="com.natkarock.myapplication.ActionSetter"/>
             </intent-filter>
         </receiver>
-        <receiver android:name=".frameworks.smileAlarm.BootAlarmReceiver" android:exported="true" android:enabled="true">
+        <receiver android:name="com.natkarock.myapplication.frameworks.smileAlarm.BootAlarmReceiver" android:exported="true" android:enabled="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
             </intent-filter>

@@ -5,6 +5,7 @@ import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
 import com.natkarock.myapplication.utils.TimeUtils
+import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 
 class SmileAlarmManager @Inject constructor(
@@ -39,6 +40,7 @@ class SmileAlarmManager @Inject constructor(
 
     private fun getPending(): PendingIntent {
         val intent = Intent(context, SmileReceiver::class.java)
+        intent.action = "com.natkarock.myapplication.ActionSetter"
         return PendingIntent.getBroadcast(context, ALARM_PENDING_REQUEST_ID, intent, 0)
 
     }
